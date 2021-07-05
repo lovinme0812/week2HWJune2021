@@ -1,0 +1,72 @@
+h1{
+  text-align: center;
+}
+
+#container {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#css-carousel {
+  display: flex;
+  transform: translateX(-000px);
+  animation: anime 10s infinite;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+
+@keyframes anime {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-400px)
+  }
+  100% {
+    transform: translateX(-0px);
+  }
+}
+
+#window {
+  border: 1px solid;
+  width: 500px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#jsCarousel{
+  display: flex;
+  transform: translateX(-000px);
+}
+
+img{
+  width: 500px;
+  height: 500px;
+}
+
+.btn-container{
+  position: relative;
+}
+
+.prev{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.next{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 150px;
+  right: 0;
+  text-align: center;
+  margin-top: 20px;
+}
